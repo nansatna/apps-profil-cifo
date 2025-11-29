@@ -30,6 +30,7 @@
     {
         if(file_exists("pages/depan/$pages/$files.php") and is_dir("pages/depan/$pages"))
         {
+            include("hero.php");
             include("data/depan/$pages/$files.php");
             include("pages/depan/$pages/$files.php");
         }
