@@ -1,118 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimoni Pelanggan</title>
-
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: "Poppins", sans-serif;
-        }
-        .testimonial-card {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
-            transition: 0.3s;
-        }
-        .testimonial-card:hover {
-            transform: translate(-5px);
-        }
-        .profile-img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        .stars i {
-            color: gold;
-        }
-        .read-more {
-            font-weight: 600;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .read-more:hover {
-            text-decoration: underline;
-        }
-    </style>
-
-</head>
-<body>
-    
-    <div class="container py-5">
+<section class="py-5 bg-light">
+    <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Hear What Our Clients<br>Have to Say</h2>
+            <h2 class="fw-bolder display-5">Apa Kata Client Kami</h2>
+            <p class="lead text-muted">Kami bangga dengan hasil yang kami berikan.</p>
         </div>
 
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center">
 
-            <!-- Card 1 -->
-            <div class="col-md-6">
-                <div class="testimonial-card">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="profile-img me-3">
-                        <div>
-                            <h6 class="mb-0 fw-bold">BAPAK UCUP</h6>
-                            <small class="text-muted">Kerennnn, mantapp, terbaikk lah pokonyaa!!!</small>
+            <div class="col-lg-5 col-md-6">
+                <div class="card shadow-lg border-0 h-100 testimonial-card-modern">
+                    <div class="card-body p-4 p-md-5">
+                        <div class="quote-icon text-primary mb-3">
+                            <i class="bi bi-quote fs-1"></i>
                         </div>
+                        
+                        <div class="stars mb-3 text-warning fs-5">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="fst-italic fs-6">
+                            Bekerja dengan tim kami sungguh luar biasa. Mereka mendesain ulang situs saya dengan sangat baik,
+                            membuat konten berkualitas tinggi, dan meningkatkan peringkat saya secara signifikan
+                        </p>
+                        
+                        <div class="d-flex align-items-center mt-4 pt-3 border-top">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="profile-img rounded-circle me-3 flex-shrink-0" alt="Foto Bapak Ucup" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="mb-0 fw-bold text-dark">BAPAK UCUP</h6>
+                                <small class="text-primary fw-medium">Kerennnn, mantapp, terbaikk lah pokonyaa!!!</small>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3 w-100">BACA KISAH LENGKAP</a>
                     </div>
-
-                    <div class="stars mb-2">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-
-                    <p>
-                        “Working with our team has been great. They did a great redesign of my site,
-                        created high-quality content, and improved my rankings significantly…”
-                    </p>
-
-                    <a href="#" class="read-more">READ MORE</a>
                 </div>
             </div>
 
-            <!-- Card 2 -->
-            <div class="col-md-6">
-                <div class="testimonial-card">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="https://randomuser.me/api/portraits/men/52.jpg" class="profile-img me-3">
-                        <div>
-                            <h6 class="mb-0 fw-bold">BAPAK WAWAN</h6>
-                            <small class="text-muted">Rekomendasi ini web, worth it bangettttt</small>
+            <div class="col-lg-5 col-md-6">
+                <div class="card shadow-lg border-0 h-100 testimonial-card-modern">
+                    <div class="card-body p-4 p-md-5">
+                        <div class="quote-icon text-primary mb-3">
+                            <i class="bi bi-quote fs-1"></i>
                         </div>
+                        
+                        <div class="stars mb-3 text-warning fs-5">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="fst-italic fs-6">
+                            Peningkatannya luar biasa! Volume panggilan meningkat dari 5 per hari menjadi lebih dari 15 panggilan organik setelah bulan pertama. Hasil yang luar biasa
+                        </p>
+                        
+                        <div class="d-flex align-items-center mt-4 pt-3 border-top">
+                            <img src="https://randomuser.me/api/portraits/men/52.jpg" class="profile-img rounded-circle me-3 flex-shrink-0" alt="Foto Bapak Wawan" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h6 class="mb-0 fw-bold text-dark">BAPAK WAWAN</h6>
+                                <small class="text-primary fw-medium">Rekomendasi ini web, worth it bangettttt</small>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3 w-100">BACA KISAH LENGKAP</a>
                     </div>
-
-                    <div class="stars mb-2">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-
-                    <p>
-                        “The improvement was incredible! Call volume increased from 5 per day to
-                        over 15 organic calls after the first month. Amazing results…”
-                    </p>
-
-                    <a href="#" class="read-more">READ MORE</a>
                 </div>
             </div>
 
         </div>
     </div>
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-</body>
-</html>
+</section>
