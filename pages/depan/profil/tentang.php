@@ -17,7 +17,7 @@
                 <h2 class="mb-3 display-6 fw-bold text-primary">Perjalanan Kami Hingga Kini</h2>
                 <p class="fs-5">Didirikan pada tahun 2010, PT. CIFO lahir dari keyakinan bahwa teknologi yang tepat adalah katalisator utama kesuksesan bisnis.</p>
                 <p class="text-muted">Kami memulai dari tim kecil yang fokus pada pengembangan perangkat lunak kustom dan kini telah berkembang menjadi penyedia solusi teknologi end-to-end, melayani berbagai industri di seluruh Indonesia.</p>
-                <a href="#" class="btn btn-outline-primary mt-3">Lihat Pencapaian Kami</a>
+                
             </div>
             <div class="col-md-6 order-md-1 d-flex justify-content-center">
                  
@@ -79,7 +79,7 @@
         <section class="bg-primary text-white p-5 rounded-4 shadow-lg text-center my-5">
             <h3 class="mb-3 fw-bolder">Mari Wujudkan Visi Teknologi Anda</h3>
             <p class="lead mb-4">Tim kami siap membantu Anda menavigasi kompleksitas dunia digital.</p>
-            <a class="btn btn-warning btn-lg fw-bold text-dark" href="#">Mulai Proyek Anda Sekarang <i class="bi bi-arrow-right"></i></a>
+            
         </section>
 
     </main>
