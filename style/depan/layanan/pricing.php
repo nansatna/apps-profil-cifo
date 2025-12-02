@@ -1,4 +1,4 @@
-
+<style>
   :root {
     --primary-gradient: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
     --card-hover-transform: translateY(-10px);
@@ -111,3 +111,4 @@
   }
   .circle-1 { width: 300px; height: 300px; top: -100px; left: -100px; }
   .circle-2 { width: 200px; height: 200px; bottom: -50px; right: -50px; }
+</style>

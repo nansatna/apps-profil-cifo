@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/style/depan/layanan/pricing.css">
+
 
 <section class="hero-section text-white py-5">
   <div class="container text-center py-4" data-aos="zoom-in">
