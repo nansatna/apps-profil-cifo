@@ -1,16 +1,3 @@
-<style>
-        .header-section {
-            background-color: #f8f9fa; /* Light background for header */
-            padding: 4rem 0;
-        }
-        .content-section {
-            padding: 3rem 0;
-        }
-        .accordion-button {
-            font-weight: bold;
-        }
-    </style>
-
 <main class="content-section">
         <div class="container">
 
@@ -114,12 +101,3 @@
 
         </div>
     </main>
-
-    <footer class="bg-dark text-white py-4 mt-5">
-        <div class="container text-center">
-            <p>&copy; 2024 PT CIFO Informatika. Hak Cipta Dilindungi Undang-Undang.</p>
-            <p><small>Diperbarui terakhir: 2 Desember 2024</small></p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
