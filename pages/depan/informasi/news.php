@@ -5,7 +5,7 @@ global $var;
 // Cek apakah ada slug di URL (misal: /informasi/news/judul-berita)
 // Jika ada, langsung panggil file detail dan hentikan script ini.
 if (!empty($var[0])) {
-    include 'detail-berita.php';
+    include 'detail.php';
     return; // Stop eksekusi agar list tidak muncul di bawah detail
 }
 
@@ -36,7 +36,7 @@ $list_berita = array_values($data_berita); // Konversi ke array biasa
                         <p class="card-text text-muted small flex-grow-1">
                             <?= substr(strip_tags($item['konten']), 0, 100) ?>...
                         </p>
-                        <a href="/informasi/news/<?= $item['slug'] ?>" class="btn btn-outline-primary w-100 mt-3 stretched-link">
+                        <a href="/informasi/detail/<?= $item['slug'] ?>" class="btn btn-outline-primary w-100 mt-3 stretched-link">
                             Baca Selengkapnya
                         </a>
                     </div>
