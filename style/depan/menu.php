@@ -19,4 +19,13 @@
     .navbar-toggler:focus {
         box-shadow: none;
     }
+
+    .form-shadow {
+            background: black;
+            padding: 300px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transition: 0.3s;
+        }
 </style>
+
