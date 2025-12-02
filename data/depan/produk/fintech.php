@@ -7,7 +7,7 @@ $layanan_fintech = [
         'deskripsi' => 'Integrasi sistem pembayaran yang aman, cepat, dan beragam untuk transaksi bisnis Anda.',
         'ikon'      => 'bi-credit-card-2-front',
         'warna'     => 'primary',
-        'img'       => 'https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=1000',
+        'img'       => 'https://www.datocms-assets.com/110819/1700751752-payment_gateway.jpg?auto=format&crop=focalpoint&fit=crop&h=513&w=1026',
         'konten'    => '<p>Sistem Payment Gateway kami dirancang untuk mempermudah bisnis Anda menerima pembayaran dari berbagai saluran secara real-time. Dengan keamanan standar internasional (PCI DSS), pelanggan Anda dapat bertransaksi dengan tenang.</p>
                         <h4>Fitur Utama:</h4>
                         <ul>
@@ -24,7 +24,7 @@ $layanan_fintech = [
         'deskripsi' => 'Memungkinkan bisnis Anda menerima pembayaran dari berbagai platform e-wallet populer.',
         'ikon'      => 'bi-wallet2',
         'warna'     => 'success',
-        'img'       => 'https://images.unsplash.com/photo-1620714223084-87bd6c26e1fb?auto=format&fit=crop&q=80&w=1000',
+        'img'       => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyCQKKrjbwbbT670JIRyKIy2-P7JLne3GETFhD38BdAwkankwWsbMJBAtsUjnIjlDqGg&usqp=CAU',
         'konten'    => '<p>Di era cashless, E-Wallet menjadi metode pembayaran favorit. Integrasi kami menyatukan OVO, GoPay, Dana, LinkAja, dan ShopeePay dalam satu pintu integrasi API.</p>'
     ],
     'billing-automation' => [

@@ -72,7 +72,7 @@ if (!empty($var[0])) {
                         </div>
                         <div class="mt-auto">
                             <!-- PERHATIKAN HREF INI: Mengarah ke slug detail -->
-                            <a class="tautan-aksi-modern text-<?php echo $layanan['warna']; ?>" href="/produk/fintech/<?php echo $layanan['slug']; ?>">
+                            <a class="tautan-aksi-modern text-<?php echo $layanan['warna']; ?>" href="/produk/detailFintech/<?php echo $layanan['slug']; ?>">
                                 Pelajari Detail
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>

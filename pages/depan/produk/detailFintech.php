@@ -93,7 +93,7 @@ if (!$produk) {
                             </div>
                             <div class="list-group list-group-flush">
                                 <?php foreach($layanan_fintech as $key => $item): ?>
-                                    <a href="/produk/fintech/<?php echo $item['slug']; ?>" 
+                                    <a href="/produk/detailFintech/<?php echo $item['slug']; ?>" 
                                        class="link-fintech-nav <?php echo ($slug == $item['slug']) ? 'active' : ''; ?>">
                                        <i class="bi <?php echo $item['ikon']; ?> me-3 opacity-75"></i>
                                        <?php echo $item['judul']; ?>
