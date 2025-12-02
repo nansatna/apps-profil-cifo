@@ -12,7 +12,7 @@
 
     <?php include("style/depan/menu.php") ?>
 
-    <?php include("style/depan/$folder/$files.php") ?>
+    <?php include("style/depan/$pages/$files.php") ?>
     <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">   
     

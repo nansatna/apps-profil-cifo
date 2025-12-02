@@ -7,7 +7,7 @@
         ],
         [
             "title" => "Profil",
-            "link"  => "/",
+            "link"  => "3",
             "submenu" => [
                 ["title" => "Tentang Kami",        "link" => "/profil/tentang"],
                 ["title" => "Sejarah",  "link" => "/profil/sejarah"],
