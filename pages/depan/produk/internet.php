@@ -3,34 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layanan Internet Fiber Optic</title>
-
+    
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-        .hero {
-            background: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg') center/cover no-repeat;
-            height: 350px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-shadow: 0 0 8px rgba(0,0,0,0.6);
-        }
-
-        .card:hover {
-            transform: scale(1.03);
-            transition: 0.3s;
-        }
-    </style>
 </head>
 <body>
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="#">Layanan interne</a>
+            <a class="navbar-brand" href="#">Layanan internet</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,9 +29,8 @@
         </div>
     </nav>
 
-    <!-- HERO -->
     <div class="hero">
-        <h1 class="fw-bold">Layanan Internet Fiber Optic</h1>
+        
     </div>
 
     <!-- PAKET INTERNET -->
