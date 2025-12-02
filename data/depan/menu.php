@@ -7,7 +7,7 @@
         ],
         [
             "title" => "Profil",
-            "link"  => "#",
+            "link"  => "/",
             "submenu" => [
                 ["title" => "Tentang Kami","link" => "/profil/tentang", "Deskripsi"=>"PT Citra Jelajah Informatika adalah perusahaan teknologi yang berfokus pada layanan digital, pengembangan sistem, dan solusi berbasis data untuk mendukung kebutuhan bisnis modern."],
                 ["title" => "Sejarah","link" => "/profil/sejarah", "Deskripsi"=>"Perjalanan PT CIFO dimulai dari komitmen menghadirkan inovasi teknologi hingga berkembang menjadi perusahaan yang dipercaya berbagai instansi dan sektor industri."],
