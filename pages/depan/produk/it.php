@@ -8,73 +8,22 @@
                 <div class="mx-auto bg-primary" style="height: 3px; width: 60px; margin-top: 10px;"></div>
             </div>
 
+            
             <div class="row g-4">
+            <?php foreach ($Pelajari as $p): ?>
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 service-card p-3 shadow-sm">
                         <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-code-slash"></i></div>
-                            <h4 class="card-title fw-bold">Custom Software Dev</h4>
-                            <p class="card-text text-muted">Pengembangan aplikasi web dan mobile yang disesuaikan dengan kebutuhan spesifik bisnis Anda menggunakan teknologi terbaru.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Pelajari Lebih Lanjut</a>
+                            <div class="icon-box"><i class="<?= $p['logo'] ?>"></i></div>
+                            <h4 class="card-title fw-bold"><?= $p['title'] ?></h4>
+                            <p class="card-text text-muted"><?= $p['des'] ?></p>
+                            <a href="<?= $p['link'] ?>" class="btn btn-outline-primary btn-sm mt-2">Pelajari Lebih Lanjut</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 service-card p-3 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-cloud-check-fill"></i></div>
-                            <h4 class="card-title fw-bold">Cloud Infrastructure</h4>
-                            <p class="card-text text-muted">Migrasi dan manajemen server berbasis Cloud (AWS/Azure/GCP) untuk skalabilitas dan aksesibilitas data yang lebih baik.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Pelajari Lebih Lanjut</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 service-card p-3 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-shield-lock-fill"></i></div>
-                            <h4 class="card-title fw-bold">Cyber Security</h4>
-                            <p class="card-text text-muted">Proteksi data perusahaan dari serangan siber dengan layanan audit keamanan, firewall, dan enkripsi tingkat lanjut.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Pelajari Lebih Lanjut</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 service-card p-3 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-people-fill"></i></div>
-                            <h4 class="card-title fw-bold">IT Consulting</h4>
-                            <p class="card-text text-muted">Konsultasi strategis untuk transformasi digital, perencanaan arsitektur sistem, dan optimalisasi biaya IT.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Pelajari Lebih Lanjut</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 service-card p-3 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-graph-up-arrow"></i></div>
-                            <h4 class="card-title fw-bold">Data Analytics & BI</h4>
-                            <p class="card-text text-muted">Ubah data mentah menjadi wawasan bisnis yang berharga dengan dashboard interaktif dan pelaporan otomatis.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Pelajari Lebih Lanjut</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 service-card p-3 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="icon-box"><i class="bi bi-router-fill"></i></div>
-                            <h4 class="card-title fw-bold">IoT Solutions</h4>
-                            <p class="card-text text-muted">Integrasi perangkat cerdas (Internet of Things) untuk otomasi industri dan monitoring sistem secara real-time.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Pelajari Lebih Lanjut</a>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
+            
         </div>
     </section>
 
