@@ -1,54 +1,55 @@
-<style>
-        /* Definisi Warna Utama */
+    <style>
+        /* Custom CSS untuk PT CIFO - TEMA BIRU */
         :root {
-            --primary-color: #0d47a1; /* Dark Blue */
-            --accent-color: #ffc107; /* Yellow/Gold Accent */
+            --cifo-blue: #0062cc; /* Warna Biru Utama */
+            --cifo-blue-dark: #004a99; /* Warna Biru untuk Hover */
+            --cifo-dark: #333;
         }
 
-        /* Gaya Khusus Bagian Hero */
-        .hero-section {
-            /* * URL GAMBAR BARU DI SINI:
-             * Menggunakan gambar bertema Transformasi Digital/Cityscape.
-             * Warna overlay (rgba) diperkuat agar teks putih tetap terbaca jelas.
-             */
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(https://www.cifo.co.id/assets/uploads/media-uploader/home-pic-11728020318.png) no-repeat center center;
-            background-size: cover;
-            background-attachment: fixed; /* Efek parallax ringan */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .text-cifo-blue {
+            color: var(--cifo-blue);
+        }
+
+        .bg-cifo-blue {
+            background-color: var(--cifo-blue);
+        }
+
+        .btn-cifo {
+            background-color: var(--cifo-blue);
             color: white;
-            padding: 6rem 0; 
-            border-radius: 0 0 50px 50px; 
-            margin-bottom: 3rem;
-        }
-
-        /* Styling Judul dan Teks Utama */
-        .display-3 {
-            font-weight: 800; /* Lebih tebal */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow pada teks agar menonjol */
-        }
-
-        /* Kartu Visi Misi & Nilai Inti */
-        .custom-card {
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
             border: none;
-            border-radius: 15px; 
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            height: 100%;
-        }
-        .custom-card:hover {
-            transform: translateY(-5px); 
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
         }
 
-        /* Icon Styling */
-        .icon-large {
-            font-size: 3rem;
-            color: var(--accent-color);
-            margin-bottom: 15px;
+        .btn-cifo:hover {
+            background-color: var(--cifo-blue-dark);
+            color: white;
         }
 
-        /* Bagian Footer */
-        .footer-custom {
-            background-color: #1a237e; 
-            color: #e3f2fd;
+        /* Hero Section Styles */
+        .hero-section {
+            /* Background sudah menggunakan foto data center dari request sebelumnya */
+            background: linear-gradient(rgba(0, 40, 100, 0.8), rgba(0, 40, 100, 0.8)), url('https://placehold.co/1920x600/333/999?text=CIFO+Headquarters');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 98, 204, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .section-padding {
+            padding: 80px 0;
         }
     </style>
