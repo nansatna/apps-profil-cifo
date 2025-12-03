@@ -127,6 +127,6 @@
                 <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
                 <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
             </div>
-            <p class="mb-0">&copy; 2023 DataSight Consulting. All Rights Reserved.</p>
+            
         </div>
     </footer>
