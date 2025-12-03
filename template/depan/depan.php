@@ -12,7 +12,7 @@
 
     <?php include("style/depan/menu.php") ?>
 
-    <?php include("style/depan/$folder/$files.php") ?>
+    <?php include("style/depan/$pages/$files.php") ?>
     <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">   
     
@@ -30,6 +30,7 @@
     {
         if(file_exists("pages/depan/$pages/$files.php") and is_dir("pages/depan/$pages"))
         {
+            include("hero.php");
             include("data/depan/$pages/$files.php");
             include("pages/depan/$pages/$files.php");
         }

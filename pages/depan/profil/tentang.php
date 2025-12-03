@@ -1,7 +1,4 @@
 
-
- 
-
     <header class="hero-section text-center">
         <div class="container">
             <h1 class="display-3 mb-3">Kami Adalah Mitra Inovasi Anda</h1>
@@ -84,4 +81,4 @@
 
     </main>
 
-    
+
